@@ -140,6 +140,43 @@ html {
 .page {
     flex: 1 1 auto;
 }
+/*hero*/
+.page__hero {
+    position: relative;
+
+    background-color: #142257;
+    height: 100vh;
+    width: 100%;
+
+
+    display: grid;
+    padding: 80px 15px 61px;
+    grid-template-columns: 21.798942% 1fr 21.798942%; /* 412/1890 */
+}
+.hero__image img{
+    border-radius: 24px;
+    max-width: 100%;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.hero__content {
+}
+.hero__block-header {
+}
+.block-header__title {
+}
+@media (max-width:900px) {
+    .page__hero{
+        padding: 86.4px 15px 61px;
+    }
+}
+@media (max-width:360px) {
+    .page__hero{
+        padding: 91.4px 15px 61px;
+    }
+}
 /*footer*/
 .footer {
 }
